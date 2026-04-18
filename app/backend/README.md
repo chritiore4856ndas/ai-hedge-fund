@@ -41,6 +41,9 @@ cp .env.example .env
 # For running LLMs hosted by openai (gpt-4o, gpt-4o-mini, etc.)
 OPENAI_API_KEY=your-openai-api-key
 
+# For running LLMs hosted by anthropic (claude-3-5-sonnet, etc.)
+ANTHROPIC_API_KEY=your-anthropic-api-key
+
 # For running LLMs hosted by groq (deepseek, llama3, etc.)
 GROQ_API_KEY=your-groq-api-key
 
@@ -96,6 +99,4 @@ app/backend/
 This project is for **educational and research purposes only**.
 
 - Not intended for real trading or investment
-- No warranties or guarantees provided
-- Creator assumes no liability for financial losses
-- Cons
+- No warranties
