@@ -57,14 +57,15 @@ To run the development server:
 cd app/backend
 
 # Start the FastAPI server with uvicorn
-poetry run uvicorn main:app --reload
+# Note: I use port 8001 locally to avoid conflicts with other services
+poetry run uvicorn main:app --reload --port 8001
 ```
 
 This will start the FastAPI server with hot-reloading enabled.
 
 The API will be available at:
-- API Endpoint: http://localhost:8000
-- API Documentation: http://localhost:8000/docs
+- API Endpoint: http://localhost:8001
+- API Documentation: http://localhost:8001/docs
 
 ## API Endpoints
 
@@ -97,6 +98,4 @@ This project is for **educational and research purposes only**.
 - Not intended for real trading or investment
 - No warranties or guarantees provided
 - Creator assumes no liability for financial losses
-- Consult a financial advisor for investment decisions
-
-By using this software, you agree to use it solely for learning purposes.
+- Cons
