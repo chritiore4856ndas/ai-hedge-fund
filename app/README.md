@@ -104,5 +104,8 @@ OPENAI_API_KEY=your-openai-api-key
 # For running LLMs hosted by groq (deepseek, llama3, etc.)
 GROQ_API_KEY=your-groq-api-key
 
-# For getting finan
+# For getting financial data
+FINANCIAL_DATASETS_API_KEY=your-financial-datasets-api-key
 ```
+
+> **Note:** At minimum you need one LLM API key. The `FINANCIAL_DATASETS_API_KEY` is required for tickers not supported by Yahoo Finance.
