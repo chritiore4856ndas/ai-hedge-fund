@@ -12,9 +12,10 @@ app = FastAPI(
 
 # Allow frontend dev server and production origins
 # Added 8080 since I sometimes run the frontend on that port locally
+# Added 4173 for vite preview mode
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000", "http://localhost:5173", "http://localhost:8080"],
+    allow_origins=["http://localhost:3000", "http://localhost:5173", "http://localhost:8080", "http://localhost:4173"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
