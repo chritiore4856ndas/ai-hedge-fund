@@ -69,6 +69,7 @@ This will start the FastAPI server with hot-reloading enabled.
 The API will be available at:
 - API Endpoint: http://localhost:8001
 - API Documentation: http://localhost:8001/docs
+- Interactive Docs (Redoc): http://localhost:8001/redoc
 
 ## API Endpoints
 
@@ -96,7 +97,4 @@ app/backend/
 
 ## Disclaimer
 
-This project is for **educational and research purposes only**.
-
-- Not intended for real trading or investment
-- No warranties
+This project is fo
